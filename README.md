@@ -2,11 +2,11 @@
 
 [![Platform](https://img.shields.io/badge/platform-iOS-red.svg)](https://developer.apple.com/iphone/index.action) [![Language](http://img.shields.io/badge/language-OC-yellow.svg?style=flat )](https://en.wikipedia.org/wiki/Objective-C) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://mit-license.org) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/LSTPopView.svg)](https://img.shields.io/cocoapods/v/LSTPopView.svg)
 
-
+#### LSTPopView 万能弹窗，功能强大，易于拓展，性能优化和内存控制让其运行更加的流畅和稳健, LSTPopView的出现,可以让我们更专注弹窗页面的布局. 省心省力 ! 提高开发效率 !
 
 ## 前言
-- 在每个项目中,弹窗的需求都有,而且各种各样,花里胡哨, 很是烦恼. LSTPopView的出现,可以让我们更专注弹窗页面的布局.省心省力! 提高开发效率!
-- 欢迎coder们发现问题或者提供更好的idea,一起努力完善
+- 考虑到笔者的精力问题,遇到问题请先查看 API、效仿Demo、阅读README、搜索 Issues。如果是BUG 或 Feature,最好是提Issue
+- 联系方式: LoSenTrad@163.com, QQ群:1045568246, 微信:a_LSTKit
 
 ## 博客地址
 - github: [https://github.com/LoSenTrad/LSTPopView](https://github.com/LoSenTrad/LSTPopView)
@@ -37,7 +37,8 @@
 - 支持多代理机制
 - 支持二次封装,比如组件LSTHUD,LSTAlertView等
 
-## 版本更新历史[点我](https://github.com/LoSenTrad/LSTPopView/blob/master/UPDATE_HISTORY.md)
+## 版本更新历史
+- [点我查看](https://github.com/LoSenTrad/LSTPopView/blob/master/UPDATE_HISTORY.md)
 
 ## 安装
 - OC版本安装 
@@ -85,7 +86,8 @@
   [popView pop];
   ```
 
-## 使用注意事项(一定用weak修饰) 
+## 使用注意事项 
+#### (一定用weak修饰)
 - 解析: LSTPopView对每个弹窗都有自动内存销毁机制, 外部对弹窗的强引用对打破这种自动内存销毁机制, 比如成员变量用strong修饰,否则弹窗不能自动销毁,导致内存回收不了.
 - 类成员变量使用规范:
 
