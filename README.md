@@ -80,28 +80,28 @@
 - 类成员变量使用规范:
 
   ```swift
-    //成员变量用weak修饰, 不可以用strong修饰
-    @property (nonatomic,weak) LSTPopView *popView;
+  //成员变量用weak修饰, 不可以用strong修饰
+  @property (nonatomic,weak) LSTPopView *popView;
   ```
 - 成员变量的创建
- ```swift
-LSTPopViewTVView *customView = [[LSTPopViewTVView alloc] initWithFrame:CGRectMake(0, 0, 300,400)];
-//弹窗实例创建
-LSTPopView *popView = [LSTPopView initWithCustomView:customView
+  ```swift
+  LSTPopViewTVView *customView = [[LSTPopViewTVView alloc] initWithFrame:CGRectMake(0, 0, 300,400)];
+  //弹窗实例创建
+  LSTPopView *popView = [LSTPopView initWithCustomView:customView
                                                 popStyle:LSTPopStyleSmoothFromBottom
                                             dismissStyle:LSTDismissStyleSmoothToBottom];
-//这里赋值给成员变量self.popView
-self.popView = popView;
-[popView pop];
+  //这里赋值给成员变量self.popView
+  self.popView = popView;
+  [popView pop];
   ```
   
 - 错误使用: 
  ```swift
  //直接赋值给成员变量 导致成员变量为空, 请参考以上使用规范
-self.popView = [LSTPopView initWithCustomView:customView
+ self.popView = [LSTPopView initWithCustomView:customView
                                                 popStyle:LSTPopStyleSmoothFromBottom
                                             dismissStyle:LSTDismissStyleSmoothToBottom];
-  ```
+ ```
 
     
 ## 效果演示(gif图比较大,请耐心等待~)
