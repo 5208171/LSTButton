@@ -2,9 +2,7 @@
 
 [![Platform](https://img.shields.io/badge/platform-iOS-red.svg)](https://developer.apple.com/iphone/index.action) [![Language](http://img.shields.io/badge/language-OC-yellow.svg?style=flat )](https://en.wikipedia.org/wiki/Objective-C) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://mit-license.org) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/LSTPopView.svg)](https://img.shields.io/cocoapods/v/LSTPopView.svg)
 
-## 目录
-* [前言](#前言)   
-* [作者](#作者)  
+
 
 ## 前言
 - 在每个项目中,弹窗的需求都有,而且各种各样,花里胡哨, 很是烦恼. LSTPopView的出现,可以让我们更专注弹窗页面的布局.省心省力! 提高开发效率!
@@ -14,6 +12,17 @@
 - github: [https://github.com/LoSenTrad/LSTPopView](https://github.com/LoSenTrad/LSTPopView)
 - CSDN: [https://blog.csdn.net/u012400600/article/details/106279654](https://blog.csdn.net/u012400600/article/details/106279654)
 - 简书: [https://www.jianshu.com/p/8023a85dc2a2](https://www.jianshu.com/p/8023a85dc2a2)
+
+## 目录
+* [特性](#特性)   
+* [特性](#特性)  
+* [版本更新历史](#版本更新历史)  
+* [安装](#安装)  
+* [基本使用](#基本使用)  
+* [使用注意事项](#使用注意事项)  
+* [效果演示](#效果演示(gif图比较大,请耐心等待~))  
+* [作者](#作者)  
+* [版权](#版权)  
 
 ## 特性
 - 提供丰富的api,高度自定义弹窗,简单入手使用
