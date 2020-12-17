@@ -60,7 +60,7 @@
     //自定义view
     LSTPopViewTVView *customView = [[LSTPopViewTVView alloc] initWithFrame:CGRectMake(0, 0, 300,400)];
    //创建弹窗PopViiew 指定父容器self.view, 不指定默认是app window
-   LSTPopView *popView = [LSTPopView initWithCustomView:customView
+    LSTPopView *popView = [LSTPopView initWithCustomView:customView
                                               parentView:self.view
                                                 popStyle:LSTPopStyleSmoothFromBottom
                                             dismissStyle:LSTDismissStyleSmoothToBottom];
